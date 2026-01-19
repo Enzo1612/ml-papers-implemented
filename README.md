@@ -31,7 +31,7 @@ Papers are implemented in **historical order** to track how ideas evolved into m
 
 ## Mathematical Core
 
-To enforce first-principle reasoning, all numerical machinery lives in a custom linear algebra layer. The repository containing the full library is available on my account.
+To enforce first-principle reasoning, all numerical machinery lives in a custom linear algebra layer. The repository containing the full library is available [on my account](https://github.com/Enzo1612/linear-algebra).
 
 Implemented components include:
 
