@@ -1,5 +1,5 @@
 from typing import List, Optional, overload
-from src.vector import Vector
+from my_math.vector import Vector
 
 
 class Matrix:

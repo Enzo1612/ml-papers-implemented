@@ -33,4 +33,4 @@ $X = \text{random numbers between -1 and 1}$
 
 ### Step 3
 
-Label the points based on the decision rule. Don't add points too close to 0, we need linearly separable data.
+Label the points based on the decision rule. Method doesn't add points too close to 0, we need linearly separable data.
