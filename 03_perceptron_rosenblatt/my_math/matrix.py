@@ -33,6 +33,9 @@ class Matrix:
         self._U = None
 
         self._inverse = None
+    
+    def apply_func(self, f):
+        return Matrix([[f(x) for x in self.rows]])
 
     def __eq__(self, b: 'Matrix') -> bool:
         """

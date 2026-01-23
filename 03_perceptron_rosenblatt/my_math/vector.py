@@ -16,6 +16,9 @@ class Vector:
             coords (List[float]): List of coordinate values.
         """
         self._coor = list(coords)
+    
+    def apply_func(self, f):
+        return Vector([f(x) for x in self.coords])
 
     @property
     def coords(self) -> List[float]:
